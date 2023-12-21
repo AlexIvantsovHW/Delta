@@ -1,0 +1,23 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+table{
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+    width: 75%;
+}
+td,tr{
+    border: 1px solid white;
+    width: 100px;
+}
+.title{width: 150px;}
+.today {
+    background-color: rgb(162, 201, 243);
+}
+.green{color:green;background-color: rgba(90, 129, 90, 0.674);}
+.red{color:red;background-color: rgba(250, 141, 141, 0.715);}
